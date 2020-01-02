@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    admin:
+      topic-name: "topicA"
+    bootstrap-servers: "localhost:9092"
+    consumer:
+      group-id: "group-1"
+server:
+  port: 8082
